@@ -1,0 +1,6 @@
+div#taxonomy-blockChain img{
+    padding: 3px;
+}
+div#taxonomy-blockChain img.selected{
+    background: red;
+}

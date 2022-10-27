@@ -1,0 +1,177 @@
+
+.container{
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'bNazanin';
+    font-style: normal;
+    src: url("../../fonts/B\ Nazanin_YasDL.com.ttf");
+
+}
+
+.bNazaninFont {
+    font-family: 'bNazanin';
+}
+
+.trStyle {
+    text-align: center;
+    background-color: rgb(176, 190, 197);
+    font-family: Coronetscript, cursive;
+
+}
+.font{
+    font-family: Coronetscript, cursive;
+    font-size: 16px;
+    color: #404b40;
+ 
+}
+
+#deviceStyle {
+    text-align: center;
+    font-family: Coronetscript, cursive;
+}
+
+.wpStyle {
+    margin-top: 10px;
+    font-family: Coronetscript, cursive;;
+
+}
+
+#pictureStyle {
+    width: 50px;
+    height: 60px;
+    margin: 4px 0px;
+    border-radius: 6px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px 0px inset;
+
+}
+
+#nameDivStyle {
+
+    text-align: center;
+
+
+}
+
+#nameStyle {
+    text-align: center;
+    padding: 4px;
+
+
+}
+
+#descriptionStyle {
+    text-align: center;
+    padding: 6px;
+}
+
+.scrollme {
+    overflow-x: auto;
+
+}
+
+.txt {
+
+    padding: 10px;
+    height: 100px;
+
+    overflow-y: scroll;
+}
+
+.txt::-webkit-scrollbar {
+    display: none;
+}
+
+.txt {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    text-align: left;
+}
+
+#tableStyle {
+    background-color: rgb(178, 223, 219);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px 0px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px 0px inset;
+
+}
+
+#trInformationStyle {
+
+    box-shadow: rgba(25, 60, 77, 0.4) 0px 25px 20px -20px;
+    text-align: center;
+}
+
+#tableCounter {
+    margin-top: 32px;
+    font-size: 20px;
+
+}
+.fontSt{
+    font-family: Coronetscript, cursive;;
+}
+#z{
+    font-family: Coronetscript, cursive;
+    text-decoration: none;
+    color: #404b40;
+
+}
+
+#w {
+    font-family: corbel;
+    padding: 2px 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.wrapper {
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+
+.wrapper a {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(to right, #8ba4b9 10%, #25abe8 50%, #404b40 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+    display: inline-block;
+
+
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+#genreStyle {
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    margin-bottom: 10px;
+}
+
+#genreStyle {
+    font-family: Coronetscript, cursive;;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#description{
+    font-family: Coronetscript, cursive;;
+margin-top: 4px;
+    
+}
+
